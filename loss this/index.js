@@ -71,4 +71,4 @@ let userJ = {
   }
 };
 
-askPassword2(()=> userJ.login(true), ()=> userJ.login(false)); 
+askPassword2(()=> userJ.login(true), userJ.login.bind(userJ, false)); 
