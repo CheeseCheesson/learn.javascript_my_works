@@ -40,3 +40,6 @@ Puppy.prototype = animal
 let sharik = new Puppy('Sharik', 'one day', 'Bulgod')
 
 console.log(sharik.color);
+
+
+console.log(Puppy.prototype);
