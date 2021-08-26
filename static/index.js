@@ -48,15 +48,15 @@ class Animal {
 }
 
 // Наследует от Animal
-class Rabbit extends Animal {
+class Rabbit1 extends Animal {
   hide() {
     console.log(`${this.name} прячется!`);
   }
 }
 
 let rabbits = [
-  new Rabbit("Белый кролик", 10),
-  new Rabbit("Чёрный кролик", 5)
+  new Rabbit1("Белый кролик", 10),
+  new Rabbit1("Чёрный кролик", 5)
 ];
 
 rabbits.sort(Rabbit.compare);
